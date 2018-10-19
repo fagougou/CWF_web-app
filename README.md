@@ -5,7 +5,9 @@ To future FGG hackers.
 
 ## Getting Started
 
-Fork this repoistory and create a PR to us after your work is done.
+1. Fork this repoistory to your branch
+2. Start to code in your forked branch
+3. Create a PR to us after your work is done
 
 _P.S Pseudocode is acceptable._
 
@@ -24,6 +26,7 @@ You should create a **full stack web application** that should be:
 
 ## what are we expecting
 
+- knowledge of Git/Github
 - capacity of any web frameworks such as Vue/React/Angular/Express/Hapi/Koa...
 - resonable structure and readable/testable code (including unit tests if possible)
 - a good README to tell us how to contribute/deploy the app
