@@ -1,37 +1,23 @@
-Code With FGG - Web Application
-=========================================
+# Code With FGG - Web Application
 
 To future FGG hackers.
 
-## Getting Started
+## Usage
 
-1. Fork this repoistory to your branch
-2. Start to code in your forked branch
-3. Create a PR to us after your work is done
+1. Install dependencies
 
-_P.S Pseudocode is acceptable._
+   `npm install`
 
-## What do you have in the repository
+2. Run the application
 
-- a mock database called "products.json"
-- a set of UI mockups
+   `npm run start`
 
-## What shoud you do
+## Client
 
-You should create a **full stack web application** that should be:
+1. A SPA Application build with `Vue` `Vue-Router`
+2. Use `Webpack` for project builder
+3. Use `axios` get data from server
 
-- responsive SPA **without** using any CSS framework (Bootstrap/Semantic UI/Foundation/etc.)
-- built with Webpack
-- http APIs driven with Node.js
+## Server
 
-## what are we expecting
-
-- knowledge of Git/Github
-- capacity of any web frameworks such as Vue/React/Angular/Express/Hapi/Koa...
-- resonable structure and readable/testable code (including unit tests if possible)
-- a good README to tell us how to contribute/deploy the app
-- plain and simple commit messages
-- sense of UI/UX
-- etc.
-
-**However, just take your time and do the best. 加油 :)**
+1. Use `express` build a simple servers

@@ -1,0 +1,13 @@
+{
+	"presets": ["@babel/preset-env"],
+	"plugins": [
+		"@babel/plugin-syntax-dynamic-import",
+		"@babel/transform-runtime",
+		[
+			"babel-plugin-root-import",
+			{
+				"rootPathSuffix": "."
+			}
+		]
+	]
+}
