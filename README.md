@@ -34,4 +34,4 @@ You should create a **full stack web application** that should be:
 - sense of UI/UX
 - etc.
 
-**However, just take your time and do the best. 加油 :)**
+**Anyway, just take your time and do the best. 加油 :)**
