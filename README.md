@@ -5,7 +5,7 @@ To future FGG hackers.
 
 ## Getting Started
 
-1. Fork this repoistory to your branch
+1. Fork the repo to your branch
 2. Start to code in your forked branch
 3. Create a PR to us after your work is done
 
