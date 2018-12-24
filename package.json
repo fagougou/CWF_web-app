@@ -1,0 +1,42 @@
+{
+  "name": "cwf",
+  "version": "1.0.0",
+  "description": "CWF web app",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxf1996/CWF_web-app.git"
+  },
+  "keywords": [
+    "webpack",
+    "vue"
+  ],
+  "author": "xiexuefeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxf1996/CWF_web-app/issues"
+  },
+  "homepage": "https://github.com/xxf1996/CWF_web-app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^1.0.0",
+    "css-loader": "^2.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.21",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.13"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue": "^2.5.21"
+  }
+}
