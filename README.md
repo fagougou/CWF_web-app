@@ -1,37 +1,19 @@
-Code With FGG - Web Application
-=========================================
+## 步骤
 
-To future FGG hackers.
+1. 安装依赖：
+```sh
+npm i
+```
 
-## Getting Started
+2. 启动：
+```sh
+npm start
+```
 
-1. Fork the repo to your branch
-2. Start to code in your forked branch
-3. Create a PR to us after your work is done
+3. 查看：http://localhost:8080
 
-_P.S Pseudocode is acceptable._
+## 说明
 
-## What do you have in the repository
-
-- a mock database called "products.json"
-- a set of UI mockups
-
-## What shoud you do
-
-You should create a **full stack web application** that should be:
-
-- responsive SPA **without** using any CSS framework (Bootstrap/Semantic UI/Foundation/etc.)
-- built with Webpack
-- http APIs driven with Node.js
-
-## what are we expecting
-
-- knowledge of Git/Github
-- capacity of any web frameworks such as Vue/React/Angular/Express/Hapi/Koa...
-- resonable structure and readable/testable code (including unit tests if possible)
-- a good README to tell us how to contribute/deploy the app
-- plain and simple commit messages
-- sense of UI/UX
-- etc.
-
-**Anyway, just take your time and do the best. 加油 :)**
+1. 由于功能简单，没有使用配套的`vuex`和`vue-router`；
+2. 不知道具体需求，没有进行兼容性处理；
+3. 不清楚是否需要额外的API服务器，故没有搭建，而是直接获取json数据；
