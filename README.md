@@ -1,38 +1,25 @@
-Code With FGG - Web Application
-=========================================
+# my-project
 
-To future FGG hackers.
+> A Vue.js project
 
-## Getting Started
+## Build Setup
 
-1. Fork the repo to your branch
-2. Start to code in your forked branch
-3. Create a PR to us after your work is done
+``` bash
+# install dependencies
+npm install
 
-_P.S Pseudocode is acceptable._
+# serve with hot reload at localhost:8080
+npm run dev
 
-## What do you have in the repository
+# build for production with minification
+npm run build
 
-- a mock database called "products.json"
-- a set of UI mockups
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+## 说明
 
-## What shoud you do
-
-You should create a **full stack web application** that should be:
-
-- responsive SPA **without** using any CSS framework (Bootstrap/Semantic UI/Foundation/etc.)
-- built with Webpack
-- http APIs driven with Node.js
-
-## what are we expecting
-
-- knowledge of Git/Github
-- capacity of any web frameworks such as Vue/React/Angular/Express/Hapi/Koa...
-- resonable structure and readable/testable code (including unit tests if possible)
-- a good README to tell us how to contribute/deploy the app
-- plain and simple commit messages
-- sense of UI/UX
-- finish in 2-3 hours
-- etc.
-
-**Anyway, if you would, we love to see a prettier, more ergonomically designed App instead of reproducing the mockups. So just take your time and do the best. 加油 :)**
+1. 使用vue官方脚手架（由于暂时没有对webpack深入了解，所以没有自己动手搭建脚手架）；
+2. products.json文件中对tags看了老一会没明白代表啥意思，所以没有使用；
+3. 使用rem做了布局,时间有限，技术有限，没有做响应式布，选择了用rem做个移动端页面（比较喜欢做移动端对东西）；
+4. vue + axios + vueRouter + webpack 正常来说应该还有一个vuex这里没用到组件通信 也就没用了
