@@ -9,38 +9,11 @@ import Header from '@/components/header'
 import Content from '@/components/content'
 export default {
   data () {
-    return {
-      arrList: [],
-      array: []
-    }
+    return {}
   },
-  created () {
-    this.renderList()
-  },
+  created () {},
   mounted () {},
-  methods: {
-    getDataApi () {
-      return new Promise((resolve, reject) => {
-        this.$http.get('/static/products.json')
-          .then((data = {}) => {
-            resolve(data.data)
-          })
-          .catch(err => {
-            reject(err)
-          })
-      })
-    },
-    renderList () {
-      this.getDataApi()
-        .then((data) => {
-          // console.log(data)
-          this.array = data
-        })
-        .catch(err => {
-          alert(err)
-        })
-    }
-  },
+  methods: {},
   components: {
     'v-header': Header,
     'v-content': Content
@@ -48,6 +21,5 @@ export default {
 }
 </script>
 <style scoped>
-  .home-page{
-  }
+  .home-page{}
 </style>

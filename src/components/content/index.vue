@@ -35,11 +35,30 @@ export default {
     }
   },
   created () {
-    this.$http('/static/products.json').then(res => {
-      this.info = res.data
-    }).catch(err => {
-      alert(err)
-    })
+    this.renderList()
+  },
+  methods: {
+    renderList () {
+      this.getDataApi()
+        .then((data) => {
+          // console.log(data)
+          this.info = data
+        })
+        .catch(err => {
+          alert(err)
+        })
+    },
+    getDataApi () {
+      return new Promise((resolve, reject) => {
+        this.$http.get('/static/products.json')
+          .then((data = {}) => {
+            resolve(data.data)
+          })
+          .catch(err => {
+            reject(err)
+          })
+      })
+    }
   }
 }
 </script>
