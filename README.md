@@ -35,4 +35,4 @@ You should create a **full stack web application** that should be:
 - finish in 2-3 hours
 - etc.
 
-**Anyway, just take your time and do the best. 加油 :)**
+**Anyway, if you would, we love to see a prettier, more erconomically designed App instead of reproducing the mockups. So just take your time and do the best. 加油 :)**
