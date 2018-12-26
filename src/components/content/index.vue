@@ -50,7 +50,7 @@ export default {
     },
     getDataApi () {
       return new Promise((resolve, reject) => {
-        this.$http.get('/static/products.json')
+        this.$http.get('./static/products.json')
           .then((data = {}) => {
             resolve(data.data)
           })
