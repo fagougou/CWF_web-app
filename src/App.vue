@@ -15,6 +15,11 @@ export default {
   margin: 0;
   padding: 0;
   list-style: none;
+  box-sizing: border-box;
+}
+body {
+  padding: 15px 20px 0;
+  font-size: 14px;
 }
 a{
   text-decoration: none;
