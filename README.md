@@ -23,3 +23,4 @@ npm run build --report
 2. products.json文件中对tags看了老一会没明白代表啥意思，所以没有使用；
 3. 使用rem做了布局,时间有限，技术有限，没有做响应式布，选择了用rem做个移动端页面（比较喜欢做移动端对东西）；
 4. vue + axios + vueRouter + webpack 正常来说应该还有一个vuex这里没用到组件通信 也就没用了
+
