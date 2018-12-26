@@ -32,6 +32,7 @@ You should create a **full stack web application** that should be:
 - a good README to tell us how to contribute/deploy the app
 - plain and simple commit messages
 - sense of UI/UX
+- finish in 2-3 hours
 - etc.
 
 **Anyway, just take your time and do the best. 加油 :)**
