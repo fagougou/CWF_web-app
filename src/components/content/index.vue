@@ -113,7 +113,7 @@ export default {
       flex-basis: 50%;
       flex-flow: row wrap;
       justify-content: center;
-      padding: 0 20px;
+      padding: 0 13px;
     }
     .pic{
       flex-basis: 100%;
